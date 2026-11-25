@@ -7,6 +7,7 @@ An automated pipeline and validation engine for Data Vault 2.0 architectures (Hu
 - **Data Vault 2.0 Primitives**: Hub, Link, and Satellite modeling with deterministic SHA-256 hash keys and change data capture (CDC) hash diffs compatible with Snowflake and BigQuery.
 - **dbt Transformation Staging**: Compiles raw transactional entity streams into staged vault models.
 - **Integrity Validation**: Enforces referential integrity across Link relationships and detects attribute drift.
+- **Pipeline Observability**: Real-time SLA freshness monitoring, row-count validation, anomaly alerts, and schema drift detection across incoming data batches.
 
 ## Usage
 
